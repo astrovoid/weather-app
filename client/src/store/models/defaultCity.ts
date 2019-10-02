@@ -15,7 +15,7 @@ const defaultCity = createModel<DefaultCityState>({
     )
   },
   effects: (dispatch: Dispatch) => ({
-    redirectToDefaultCity: async (payload, rootState) => {
+    redirectToDefaultCity: async (payload) => {
       const { data: city } = await cityFetch(`/city/${payload}`);
 
       dispatch(

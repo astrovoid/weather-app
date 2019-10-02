@@ -4,7 +4,6 @@ import { router5Middleware } from "redux-router5";
 import { Router } from "router5";
 import { init as initStore, Models } from "@rematch/core";
 import { router5Reducer } from "redux-router5";
-
 export interface IStore {
   router: Router;
 }
