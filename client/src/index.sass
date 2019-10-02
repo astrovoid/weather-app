@@ -1,0 +1,72 @@
+body
+  background: url('./images/bg.jpg')
+  
+.container 
+  width: 1000px
+  margin: 0 auto
+
+.logo 
+  display: block
+  width: 60px
+  height: 60px
+
+.header 
+  height: 80px
+  padding: 10px
+  position: relative
+  box-sizing: border-box
+  background: rgba(255, 255, 255, 0.4)
+
+.header-content
+  display: flex
+  justify-content: space-between
+
+.search-bar 
+  width: 100%
+  margin: auto 80px
+
+.autocomplete-option
+  color: #000
+
+.about-button
+  display: block
+  height: 40px
+  background: #1890ff
+  margin-top: -15px
+  padding: 10px 20px
+  color: #fff
+  border-radius: 5px
+  font-size: 18px
+  text-align: center
+
+.content 
+  margin-top: 100px
+  border-radius: 10px
+  background: rgba(255, 255, 255, 0.75)
+  padding: 20px
+
+.weather-card
+  position: relative
+  .title
+    display: flex
+    align-items: center
+  .last-update
+    margin-left: 20px
+
+.set-default
+  position: absolute
+  right: 0
+  top: -10px
+
+.weather-view
+  position: relative
+  .main-info
+    display: inline-flex
+    flex-direction: row
+    justify-content: center
+  .description::first-letter
+    text-transform: uppercase
+  .temp
+    margin: 20px 0 0 10px
+    font-size: 50px
+  
